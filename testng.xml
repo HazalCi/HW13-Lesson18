@@ -1,0 +1,12 @@
+<suite name="Salary Calculation Test Suite" verbose="1" parallel="true" thread-count="5">
+    <test name="Salary Calculation Test">
+        <classes>
+            <class name="org.example.TestNG.SalaryTest"/>
+        </classes>
+    </test>
+    <test name="Salary Calculation Test with Data Provider">
+          <classes>
+              <class name="org.example.TestNG.SalaryTestWithDataProvider"/>
+          </classes>
+    </test>
+</suite>
